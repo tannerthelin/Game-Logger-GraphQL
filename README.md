@@ -2,7 +2,7 @@
 
 A simple **GraphQL server with JavaScript (Node.js)** based on  [Prisma Client](https://github.com/prisma/prisma2/blob/master/docs/prisma-client-js/api.md), [apollo-server](https://www.apollographql.com/docs/apollo-server/), PostgreSQL, and [GraphQL Nexus](https://nexus.js.org/). Allows the user to store a database of the video games they've recently played, the system they played on, and the date they completed it. :video_game:
 
-<br/><br/>
+<br/>
 
 ## How to use
 
@@ -52,6 +52,7 @@ query getAllGames {
 	}
 }
 ```
+<br/>
 
 #### :page_with_curl: Retrieve a single Game
 _This particular query should return the game "Hollow Knight"_
@@ -64,6 +65,7 @@ query getGame {
   }
 }
 ```  
+<br/>
 
 #### :mag: Filter games based on a search
 _This particular query is for the word "Call" in "Call of Duty"_
@@ -98,6 +100,7 @@ mutation createGame {
  }
 }
 ```  
+<br/>
 
 #### :pencil2: Update Game
 _This particular query will add the latest expansion onto the "World of Warcraft" item's title_
@@ -117,7 +120,7 @@ mutation updateGame {
   }
 }
 ```  
-
+<br/>
 
 ### At least 1 Mutation resolver allowing users to delete an item.
 #### :wastebasket: Delete Game

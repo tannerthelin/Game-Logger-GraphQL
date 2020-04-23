@@ -2,31 +2,126 @@
 		{
             "title": "Hollow Knight",
             "system": "Xbox One",
-            "date_completed": "Jan 1, 2020"
+            "date_completed": "July 10, 2019"
         },
         {
             "title": "World of Warcraft",
             "system": "PC",
-            "date_completed": "Jan 1, 2020"
+            "date_completed": "April 30, 2020"
         },
         {
             "title": "God of War",
             "system": "Playstation 4",
-            "date_completed": "Jan 1, 2020"
+            "date_completed": "August 2, 2018"
         },
         {
             "title": "Call of Duty: Modern Warfare",
             "system": "Xbox One",
-            "date_completed": "Jan 1, 2020"
+            "date_completed": "March 12, 2020"
         },
         {
             "title": "Sky: Children of the Light",
             "system": "iOS",
-            "date_completed": "Jan 1, 2020"
+            "date_completed": "December 8, 2019"
         },
         {
             "title": "Star Wars Jedi: Fallen Order",
             "system": "Xbox One",
-            "date_completed": "Jan 1, 2020"
+            "date_completed": "January 1, 2020"
+        },
+        {
+            "title": "Minecraft",
+            "system": "Xbox One",
+            "date_completed": "Octocber 31, 2020"
+        },
+        {
+            "title": "Sekiro: Shadows Die Twice",
+            "system": "Xbox One",
+            "date_completed": "December 29, 2020"
+        },
+        {
+            "title": "Celeste",
+            "system": "Nintendo Switch",
+            "date_completed": "November 12, 2019"
+        },
+        {
+            "title": "The Legend of Zelda: Breath of the Wild",
+            "system": "Nintendo Switch",
+            "date_completed": "May 12, 2018"
+        },
+        {
+            "title": "Fortnite: Battle Royale",
+            "system": "Xbox One",
+            "date_completed": "August 13, 2018"
+        },
+        {
+            "title": "Destiny 2",
+            "system": "Xbox One",
+            "date_completed": "September 19, 2019"
+        },
+        {
+            "title": "Borderlands 3",
+            "system": "Xbox One",
+            "date_completed": "November 28, 2020"
+        },
+        {
+            "title": "The Outer Worlds",
+            "system": "Xbox One",
+            "date_completed": "December 29, 2019"
+        },
+        {
+            "title": "Outer Wilds",
+            "system": "Xbox One",
+            "date_completed": "February 28, 2020"
+        },
+        {
+            "title": "Mario Odyssey",
+            "system": "Nintendo Switch",
+            "date_completed": "April 12, 2018"
+        },
+        {
+            "title": "Death Stranding",
+            "system": "Playstation 4",
+            "date_completed": "February 12, 2020"
+        },
+        {
+            "title": "Spiderman",
+            "system": "Playstation 4",
+            "date_completed": "July 12, 2019"
+        },
+        {
+            "title": "Apex Legends",
+            "system": "Xbox One",
+            "date_completed": "June 10, 2019"
+        },
+        {
+            "title": "Gears 5",
+            "system": "Xbox One",
+            "date_completed": "January 30, 2020"
+        },
+        {
+            "title": "Untitled Goose Game",
+            "system": "Nintendo Switch",
+            "date_completed": "October 12, 2019"
+        },
+        {
+            "title": "Luigi's Mansion",
+            "system": "Nintendo Switch",
+            "date_completed": "December 1, 2019"
+        },
+        {
+            "title": "Monster Hunter World",
+            "system": "Playstation 4",
+            "date_completed": "August 29, 2019"
+        },
+        {
+            "title": "Escape from Tarkov",
+            "system": "PC",
+            "date_completed": "November 28, 2019"
+        },
+        {
+            "title": "Red Dead Redemption 2",
+            "system": "Xbox One",
+            "date_completed": "November 5, 2018"
         }
 	]
