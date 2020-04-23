@@ -2,7 +2,7 @@
 
 A simple **GraphQL server with JavaScript (Node.js)** based on  [Prisma Client](https://github.com/prisma/prisma2/blob/master/docs/prisma-client-js/api.md), [apollo-server](https://www.apollographql.com/docs/apollo-server/), PostgreSQL, and [GraphQL Nexus](https://nexus.js.org/). Allows the user to store a database of the video games they've recently played, the system they played on, and the date they completed it. :video_game:
 
-&nbsp..  
+<br/><br/>
 
 ## How to use
 
@@ -36,7 +36,7 @@ npm run start
 * Open [http://localhost:4000](http://localhost:4000) in your browser to explore the GraphQL Playground.
 * Then open to [http://localhost:5555](http://localhost:5555) in your broswer to view Prisma Studio.
 
-&nbsp..  
+<br/><br/>
 
 ## Queries
 
@@ -77,7 +77,7 @@ query filterGames {
 }
 ```  
 
-&nbsp..  
+<br/><br/>
 
 ## Mutations
 
@@ -135,7 +135,7 @@ mutation deleteOneGame {
 }
 ```  
 
-&nbsp..  
+<br/><br/>
 
 ## Other Requirements
 • **Use Prisma as your data modeling tool -** :link: [See Prisma Code](https://github.com/tannerthelin/Game-Logger-GraphQL/tree/master/prisma)
