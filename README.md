@@ -35,10 +35,10 @@ npm run start
 * Then open to [http://localhost:5555](http://localhost:5555) in your broswer to view Prisma Studio.
 
 ### Prisma as your data modeling tool
-:link: * [See Prisma Code](https://github.com/tannerthelin/GraphQL-API-Node-Server/tree/master/prisma)
+:link: [See Prisma Code](https://github.com/tannerthelin/GraphQL-API-Node-Server/tree/master/prisma)
 
 ### Docker-based PostgreSQL, MySQL, or MongoDB as your data store
-:link: * [See Postgres in scripts](https://github.com/tannerthelin/GraphQL-API-Node-Server/blob/master/package.json)
+:link: [See Postgres in scripts](https://github.com/tannerthelin/GraphQL-API-Node-Server/blob/master/package.json)
 
 ## Queries
 
@@ -56,7 +56,7 @@ query getAllGames {
 ```
 
 #### :page_with_curl: Retrieve a single Game
-This particular query should return the game "Hollow Knight"
+_This particular query should return the game "Hollow Knight"_
 ```graphql
 query getGame {
   Game (id: "ck9bzwyoe00008nmeliu3tlf1") {
@@ -68,7 +68,7 @@ query getGame {
 ```
 
 #### :mag: Filter games based on a search
-This particular query is for the word "Call" in "Call of Duty"
+_This particular query is for the word "Call" in "Call of Duty"_
 ```graphql
 query filterGames {
   filterGames (searchstring: "Call") {
@@ -82,7 +82,7 @@ query filterGames {
 ## Mutations
 
 #### :heavy_plus_sign: Create Game
-This mutation will create a new game entry for Starcraft II
+_This mutation will create a new game entry for Starcraft II_
  ```graphql
 mutation createGame {
  createGame(
@@ -99,7 +99,7 @@ mutation createGame {
 }
 ```
 #### :pencil2: Update Game
-This particular query will add the latest expansion onto the "World of Warcraft" item's title
+_This particular query will add the latest expansion onto the "World of Warcraft" item's title_
 ```graphql
 mutation updateGame {
   updateGame(
@@ -120,7 +120,7 @@ mutation updateGame {
 
 ### At least 1 Mutation resolver allowing users to delete an item.
 #### :wastebasket: Delete Game
-This particular query will delete the game "Hollow Knight" from the list
+_This particular query will delete the game "Hollow Knight" from the list_
 ```graphql
 mutation deleteOneGame {
   deleteOneGame(where: {
