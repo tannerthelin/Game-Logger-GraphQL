@@ -55,10 +55,10 @@ query getAllGames {
 <br/>
 
 #### :page_with_curl: Retrieve a single Game
-_This particular query should return the game "Hollow Knight"_
+_Copy an id from the previous query and paste it into this query to retrieve the item_
 ```graphql
 query getGame {
-  Game (id: "ck9bzwyoe00008nmeliu3tlf1") {
+  Game (id: "<INSERT ID>") {
     title
     system
     date_completed
