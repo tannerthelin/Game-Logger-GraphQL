@@ -34,11 +34,6 @@ npm run start
 * Open [http://localhost:4000](http://localhost:4000) in your browser to explore the GraphQL Playground.
 * Then open to [http://localhost:5555](http://localhost:5555) in your broswer to view Prisma Studio.
 
-### Prisma as your data modeling tool
-:link: [See Prisma Code](https://github.com/tannerthelin/GraphQL-API-Node-Server/tree/master/prisma)
-
-### Docker-based PostgreSQL, MySQL, or MongoDB as your data store
-:link: [See Postgres in scripts](https://github.com/tannerthelin/GraphQL-API-Node-Server/blob/master/package.json)
 
 ## Queries
 
@@ -65,7 +60,7 @@ query getGame {
     date_completed
   }
 }
-```
+```  
 
 #### :mag: Filter games based on a search
 _This particular query is for the word "Call" in "Call of Duty"_
@@ -77,7 +72,7 @@ query filterGames {
     date_completed
   }
 }
-```
+```  
 
 ## Mutations
 
@@ -97,7 +92,8 @@ mutation createGame {
    date_completed
  }
 }
-```
+```  
+
 #### :pencil2: Update Game
 _This particular query will add the latest expansion onto the "World of Warcraft" item's title_
 ```graphql
@@ -115,7 +111,7 @@ mutation updateGame {
     date_completed
   }
 }
-```
+```  
 
 
 ### At least 1 Mutation resolver allowing users to delete an item.
@@ -132,11 +128,14 @@ mutation deleteOneGame {
     date_completed
   }
 }
-```
+```  
 
-### Your datastore will contain at least 25 items
-* You can see the number of items in [Primsa Studio](http://localhost:5555/) or the [Seed File](https://github.com/tannerthelin/GraphQL-API-Node-Server/blob/master/prisma/seed.js), and the data being seeded in the [People.json](https://github.com/tannerthelin/GraphQL-API-Node-Server/blob/master/prisma/data/people.json)
+## Other Requirements
+• **Use Prisma as your data modeling tool -** :link: [See Prisma Code](https://github.com/tannerthelin/Game-Logger-GraphQL/tree/master/prisma)
 
-### Your app will be deployable locally using Docker and will have seed data entered into the datastore.
-* This can be seen in the npm scripts above and in the [package.json](https://github.com/tannerthelin/GraphQL-API-Node-Server/blob/master/package.json)
+• **Docker-based PostgreSQL as your data store -** :link: [See Postgres in scripts](https://github.com/tannerthelin/Game-Logger-GraphQL/blob/master/package.json)
+
+• **Your datastore must contain at least 25 items -** :link: [Check out my data](https://github.com/tannerthelin/Game-Logger-GraphQL/blob/master/prisma/data/games.json)
+
+• **Your app will be deployable locally using Docker and will have seed data entered into the datastore -** :link: [View npm scripts in the package.json](https://github.com/tannerthelin/Game-Logger-GraphQL/blob/master/package.json)
 
