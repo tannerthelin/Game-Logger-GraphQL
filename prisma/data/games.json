@@ -1,0 +1,32 @@
+[
+		{
+            "title": "Hollow Knight",
+            "system": "Xbox One",
+            "date_completed": "Jan 1, 2020"
+        },
+        {
+            "title": "World of Warcraft",
+            "system": "PC",
+            "date_completed": "Jan 1, 2020"
+        },
+        {
+            "title": "God of War",
+            "system": "Playstation 4",
+            "date_completed": "Jan 1, 2020"
+        },
+        {
+            "title": "Call of Duty: Modern Warfare",
+            "system": "Xbox One",
+            "date_completed": "Jan 1, 2020"
+        },
+        {
+            "title": "Sky: Children of the Light",
+            "system": "iOS",
+            "date_completed": "Jan 1, 2020"
+        },
+        {
+            "title": "Star Wars Jedi: Fallen Order",
+            "system": "Xbox One",
+            "date_completed": "Jan 1, 2020"
+        }
+	]
