@@ -1,5 +1,4 @@
-# :space_invader:
-# Logged Video Games GraphQL Server
+# :space_invader: Video Game Logger - GraphQL Server
 
 A simple **GraphQL server with JavaScript (Node.js)** based on  [Prisma Client](https://github.com/prisma/prisma2/blob/master/docs/prisma-client-js/api.md), [apollo-server](https://www.apollographql.com/docs/apollo-server/), PostgreSQL, and [GraphQL Nexus](https://nexus.js.org/). Allows the user to store a database of the video games they've recently played, the system they played on, and the date they completed it. :video_game:
 
@@ -36,13 +35,12 @@ npm run start
 * Then open to [http://localhost:5555](http://localhost:5555) in your broswer to view Prisma Studio.
 
 ### Prisma as your data modeling tool
-* [See Prisma Code](https://github.com/tannerthelin/GraphQL-API-Node-Server/tree/master/prisma)
+:link: * [See Prisma Code](https://github.com/tannerthelin/GraphQL-API-Node-Server/tree/master/prisma)
 
 ### Docker-based PostgreSQL, MySQL, or MongoDB as your data store
-* [See Postgres in scripts](https://github.com/tannerthelin/GraphQL-API-Node-Server/blob/master/package.json)
+:link: * [See Postgres in scripts](https://github.com/tannerthelin/GraphQL-API-Node-Server/blob/master/package.json)
 
-### At least 3 Query resolvers to get data from your server
-#### * The id's in all queries and mutations are provided for a premade person for easy testing.  
+## Queries
 
 #### :file_folder: Retrieve all Games
 ```graphql
@@ -81,7 +79,7 @@ query filterGames {
 }
 ```
 
-### At least 2 Mutation resolvers allowing users to create, update, or upsert an item.
+## Mutations
 
 #### :heavy_plus_sign: Create Game
 This mutation will create a new game entry for Starcraft II
@@ -121,7 +119,7 @@ mutation updateGame {
 
 
 ### At least 1 Mutation resolver allowing users to delete an item.
-#### :x: Delete Game
+#### :wastebasket: Delete Game
 This particular query will delete the game "Hollow Knight" from the list
 ```graphql
 mutation deleteOneGame {
