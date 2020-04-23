@@ -103,14 +103,12 @@ mutation createGame {
 <br/>
 
 #### :pencil2: Update Game
-_This particular query will add the latest expansion onto the "World of Warcraft" item's title_
+_This particular query will update an item. You just need to copy and paste the id, and then fill in the field and the value you want to change it to._
 ```graphql
 mutation updateGame {
   updateGame(
-    id: "ck9bzwyou00018nme9iuz9p0i",
-    title:"World of Warcraft: Battle for Azeroth", 
-    system:"PC",
-    date_completed: "April 12, 2020"
+    id: "<INSERT ID>"
+    <FIELD>: "<INSERT VALUE>"
   ) {
     id
     updatedAt
@@ -128,7 +126,7 @@ _This particular query will delete the game "Hollow Knight" from the list_
 ```graphql
 mutation deleteOneGame {
   deleteOneGame(where: {
-  id: "ck9bzwyoe00008nmeliu3tlf1"})
+  id: "<INSERT ID>"})
   {
     id
     title
