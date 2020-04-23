@@ -2,6 +2,10 @@
 
 A simple **GraphQL server with JavaScript (Node.js)** based on  [Prisma Client](https://github.com/prisma/prisma2/blob/master/docs/prisma-client-js/api.md), [apollo-server](https://www.apollographql.com/docs/apollo-server/), PostgreSQL, and [GraphQL Nexus](https://nexus.js.org/). Allows the user to store a database of the video games they've recently played, the system they played on, and the date they completed it. :video_game:
 
+<img src="https://s3-us-west-2.amazonaws.com/uw-s3-cdn/wp-content/uploads/sites/37/2014/06/05162439/White-Square.jpg"
+     alt="Spacer"
+     style="height: 50px;" />
+
 ## How to use
 
 ### 1. Download example & install dependencies
@@ -34,6 +38,9 @@ npm run start
 * Open [http://localhost:4000](http://localhost:4000) in your browser to explore the GraphQL Playground.
 * Then open to [http://localhost:5555](http://localhost:5555) in your broswer to view Prisma Studio.
 
+<img src="https://s3-us-west-2.amazonaws.com/uw-s3-cdn/wp-content/uploads/sites/37/2014/06/05162439/White-Square.jpg"
+     alt="Spacer"
+     style="height: 50px;" />
 
 ## Queries
 
@@ -73,6 +80,10 @@ query filterGames {
   }
 }
 ```  
+
+<img src="https://s3-us-west-2.amazonaws.com/uw-s3-cdn/wp-content/uploads/sites/37/2014/06/05162439/White-Square.jpg"
+     alt="Spacer"
+     style="height: 50px;" />
 
 ## Mutations
 
@@ -129,6 +140,10 @@ mutation deleteOneGame {
   }
 }
 ```  
+
+<img src="https://s3-us-west-2.amazonaws.com/uw-s3-cdn/wp-content/uploads/sites/37/2014/06/05162439/White-Square.jpg"
+     alt="Spacer"
+     style="height: 50px;" />
 
 ## Other Requirements
 • **Use Prisma as your data modeling tool -** :link: [See Prisma Code](https://github.com/tannerthelin/Game-Logger-GraphQL/tree/master/prisma)
